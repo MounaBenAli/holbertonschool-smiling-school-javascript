@@ -1,0 +1,190 @@
+/*** HOMEPAGE ***/
+/* Variables
+  ============================= */
+  :root {
+    --clr-primary: #C271FF;
+    --clr-black:  #071629;
+    --clr-white: #ffffff;
+    --clr-blue: #071629;
+    --text-color-primary: var(--clr-primary);
+    --text-color: var(--color-white);
+    --font-family-base: font-family: 'Source Sans Pro', sans-serif;
+    --font-family-primary: 'Coiny', sans-serif;
+    --font-family-secondary: 'Spin Cycle OT', sans-serif;
+    --opacity-standard:0.9;
+
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 900;
+
+  }
+/* Base
+  ============================= */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+ 
+  html {
+    scroll-behavior: smooth;
+    font-size: 85.5%;
+  }
+
+  body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-small);
+  }
+  
+  .clr-primary {
+    color: var(--clr-primary);
+  }
+
+  .regular {
+    font-weight: var(--fw-regular);
+  }
+  
+/* Header
+  ============================= */
+    .hero-img {
+      background-image: url('images/pic_1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+    .hamburger {
+      display: flex;
+      align-items: center;
+      max-width: 1.25rem;
+      height: 0.875rem;
+      cursor: pointer;
+      border-radius: .125rem;        
+    }
+
+/* Section HERO
+  ============================= */
+    .btn-purple {
+      background-color: var(--clr-primary) !important;
+      border: var(--clr-primary);
+    }
+    .btn-purple:hover, .btn-purple:active {
+      background-color: var(--clr-primary);
+      border: var(--clr-primary);
+    }
+    
+    .highlight {
+      color: var(--text-color-primary);
+      text-decoration: none;
+      font-weight: var(--fw-bold);
+    }
+      
+    .jumbotron {
+      margin-top: 4rem;
+    }
+    
+
+    .jumbotron-title {
+      line-height: rem;
+      font-size: 7rem;
+      margin-top: .5rem;
+      margin-left: 1rem;
+      font-weight: var(--fw-bold);
+      font-family: var(--font-family-base);
+    }
+
+/* Section "Carousel of quotes"
+  ============================= */
+    .bg-purple {
+      background-color: var(--clr-primary);
+    }
+
+    .img_1,
+    .img_2 {
+      max-width: 90rem;
+      height: 10rem;
+    }
+
+    
+    .carousel-control-prev img,
+    .carousel-control-next img {
+      width: 30px;
+    }
+
+/* Section "Most popular tutorials"
+  ============================= */
+    .tutorials{
+      margin: 6.25rem 6.25rem 4.688rem 10rem;
+    }
+
+    .phillip,
+    .vid-length{
+      color: var(--text-color-primary);
+      font-weight: var(--fw-semibold);
+    }
+
+    .phillip-img {
+      width : 30px;
+    }
+
+    .prev, 
+    .next {
+      margin: 130rem 0.125rem 0.5rem 0.125rem;
+    }
+
+/* Section "Free membership"
+  ============================= */
+    .membership {
+      background: var(--clr-blue);
+    }
+
+
+    .happy {
+      padding-bottom: 58px;
+      margin-left: 10px;
+      margin: 3.625rem 0.125rem 0.5rem 5rem;
+    }
+
+    .register {
+      height: 150px;
+    }
+
+/* Section "Latest videos"
+  ============================= */
+    .before, 
+    .after{
+      margin: 210rem 0.125rem 0.5rem 0.125rem;
+    }
+
+/* Footer
+  ============================= */
+    .bg-blue {
+      background-color: #071629;
+    }
+
+    .logo {
+      margin: 7rem 20rem 7.75rem 15rem;
+    }
+    
+    .social-media {
+      margin: 7rem 15rem 8.063rem 26rem;
+    }
+    
+    .facebook-icon,
+    .twitter-icon {
+      margin: 0rem 1.5rem 0rem 0rem;
+    }
+    
+    .trademark {
+      margin: .125rem 4rem .5rem 55rem;
+      font-weight: var(--fw-light);
+      font-size: 12px;
+      line-height: 15px;
+    }
